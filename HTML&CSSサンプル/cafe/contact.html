@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta caharaset="UTF-8">
+    <title>お問い合わせ | KUZIRA CAFE</title>
+    <link rel="Stylesheet" href="css/style.css">
+</head>
+
+<body id="top">
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.svg" alt="KUZIRA CAFE"></a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="index.html#news">お知らせ</a></li>
+                <li><a href="index.html#shop">店舗情報</a></li>
+                <li><a href="access.html">アクセス</a></li>
+                <li><a href="menu.html">メニュー</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="hero contact">お問い合わせ</h1>
+
+    <main>
+        <form action="result.html">
+            <p>
+                <label for="kind">お問い合わせの種類</label><br>
+                <select name="kind" id="kind">
+                    <option value="1">ご予約</option>
+                    <option value="2">イベントに関するお問い合わせ</option>
+                    <option value="3">その他</option>
+                </select>
+            </p>
+            <p>
+                初めてのご来店ですか？<br>
+                <label><input type="radio" name="first" value="yes" checked>はい<br></label>
+                <label><input type="radio" name="first" value="no">いいえ</label>
+            </p>
+            <p>
+                当カフェをお知りになったきっかけは？<br>
+                <label><input type="checkbox" name="how" value="friend">知り合いの紹介で<br></label>
+                <label><input type="checkbox" name="how" value="magazine">SNS、WEBサイト、雑誌などを見て</label>
+            </p>
+            <p>
+                <label for="subject">お問い合わせの件名<br></label>
+                <input type="text" name="subject" placeholder="タイトル" id="subject">
+            </p>
+            <p>
+                <label>お問い合わせの具体的な内容<br>
+                <textarea name="message"></textarea></label>
+            </p>
+            <p class="submit">
+                <input type="submit" value="送信">
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <div class="gotop">
+            <a href="#top"><img src="images/gotop.svg" alt="ページトップへ戻る"></a>
+        </div>
+        <p class="copyright">&copy; KUZIRA CAFE</p>
+        <p>制作者：<a
+                href="https://www.google.com/search?q=%E7%9F%A2%E6%BE%A4%E5%B2%B3%E5%A4%A7&sxsrf=AJOqlzWjMPWUdjTpUpdhr2dTXc3witd2GQ%3A1673231846682&source=hp&ei=5n27Y9CbJ__L2roPh9CeqAM&iflsig=AK50M_UAAAAAY7uL9i-qu5z6YD6iAXRYpsRrgz4xhPYt&oq=%E7%9F%A2%E6%BE%A4&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIPCAAQBBCABBCxAxCxAxAlMhUIABAEEIAEELEDEIMBELEDEIMBECUyDwgAEAQQgAQQsQMQsQMQJTIJCAAQBBCABBAlMgkIABAEEIAEECUyCQgAEAQQgAQQJTIFCAAQgAQyBQgAEIAEMgUIABCABDoNCAAQBBCABBCxAxCDAToGCAAQBBADOgoIABAEEIAEELEDOgcIABAEEIAEOgkIABAEEIAEEAo6BQgAEKIEOgoIABDxBBAeEKIEUABYqDFg0jtoB3AAeACAAX6IAY0LkgEEMTYuMZgBAKABAQ&sclient=gws-wiz"
+                target="blank">矢澤岳大</a></p>
+    </footer>
+</body>
+
+</html>
